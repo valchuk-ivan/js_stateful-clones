@@ -1,31 +1,3 @@
-// function hasUniqueQuccurences(arr) {
-//   const counter = {};
-
-//   for (const elem of arr) {
-//     counter[elem] = (counter[elem] || 0) + 1;
-//   }
-
-//   const value = Object.values(counter);
-
-//   const x = new Set(value);
-
-//   // for (let i = 0; i < value.length; i++) {
-//   //   if (value.slice(i).includes(i)) {
-//   //     return false;
-//   //   }
-//   // }
-
-//   // for (let i = 0; i < value.length; i++) {
-//   //   for (let j = i + 1; j < value.length; j++) {
-//   //     if (value[i] === value[j]) {
-//   //       return false;
-//   //     }
-//   //   }
-//   // }
-
-//   return value.length === x.size;
-// }
-
 'use strict';
 
 /**
